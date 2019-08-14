@@ -27,14 +27,13 @@ Desarrollo de Software Orientado a Reutilización
     - Uso de herramientad de NetBeans (Método de Fabricación)
 
 
-###Repositorio Extra
-En este repositorio encontrarás los códigos del libro "Head First Design Patterns".
- [KelvinFanXian / Head-First-Design-Patterns-master ](https://github.com/KelvinFanXian/Head-First-Design-Patterns-master).
+**Repositorio Extra**
+Aquí contrarás los códigos del libro "Head First Design Patterns".
+[KelvinFanXian](https://github.com/KelvinFanXian/Head-First-Design-Patterns-master).
 
 
-###Nota 1: 
-La clase fue impartida en: **INSTITUTO TECNOLÓGICO DE OAXACA** 
-Por el **Dr. Rogelio Limón Cordero**
+**Nota 1:** 
+La clase por **Dr. Rogelio Limón Cordero** en **INSTITUTO TECNOLÓGICO DE OAXACA**
 
-###Nota 2: 
+**Nota 2:**
 Aprende a rezar y que la fuerza te acompañe :D
