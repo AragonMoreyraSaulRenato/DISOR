@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.7" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jTextDecimal" min="-2" pref="89" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                              <Component id="jLabelDecimal" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jTextText" min="-2" pref="152" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                      <Component id="jTextNumber" min="-2" pref="56" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jTextResp" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="jLabelText" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="66" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jTitleUnique2" pref="135" max="32767" attributes="0"/>
+                          <Component id="jTitleUnique1" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTitleUnique4" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTitleUnique3" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextText" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextResp" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextDecimal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelDecimal" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jTitleUnique1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTitleUnique4" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jTitleUnique2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTitleUnique3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="209" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="jtextunique.JTextUnique" name="jTextText">
+      <Properties>
+        <Property name="columnas" type="int" value="30"/>
+        <Property name="type" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="JTextUnique.TEXT" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextTextActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Texto"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelText">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Numero entero"/>
+      </Properties>
+    </Component>
+    <Component class="jtextunique.JTextUnique" name="jTextNumber">
+      <Properties>
+        <Property name="columnas" type="int" value="15"/>
+        <Property name="type" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="JTextUnique.NUMBER" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextNumberActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="x 2"/>
+      </Properties>
+    </Component>
+    <Component class="jtextunique.JTextUnique" name="jTextResp">
+      <Properties>
+        <Property name="columnas" type="int" value="15"/>
+      </Properties>
+    </Component>
+    <Component class="jtextunique.JTextUnique" name="jTextDecimal">
+      <Properties>
+        <Property name="columnas" type="int" value="15"/>
+        <Property name="type" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="JTextUnique.DECIMAL_NUMBER" type="code"/>
+        </Property>
+        <Property name="typedecimal" type="boolean" value="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextDecimalActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Numero decimal"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelDecimal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel2"/>
+      </Properties>
+    </Component>
+    <Component class="jtitleunique.JTitleUnique" name="jTitleUnique1">
+      <Properties>
+        <Property name="columnas" type="int" value="20"/>
+        <Property name="positionUp" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="JOJO"/>
+        <Property name="title" type="java.lang.String" value="Texto Arriba"/>
+        <Property name="typetext" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="jtitleunique.JTitleUnique" name="jTitleUnique2">
+      <Properties>
+        <Property name="positionLeft" type="boolean" value="true"/>
+        <Property name="text" type="java.lang.String" value="kok"/>
+        <Property name="title" type="java.lang.String" value="Texto Abajo"/>
+      </Properties>
+    </Component>
+    <Component class="jtitleunique.JTitleUnique" name="jTitleUnique3">
+      <Properties>
+        <Property name="positionRight" type="boolean" value="true"/>
+        <Property name="title" type="java.lang.String" value="Texto Derecha"/>
+      </Properties>
+    </Component>
+    <Component class="jtitleunique.JTitleUnique" name="jTitleUnique4">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="Texto Izquierda"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

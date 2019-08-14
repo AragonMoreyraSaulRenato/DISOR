@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Medicion</title>
+    </h:head>
+    <h:body>
+        <center>
+            <h1>Registro Mediciones</h1>
+            <br/> 
+            <h:outputText escape="false" value="${medicionBean.mensaje}"/>
+            <h:outputText escape="false" value="${medicionBean.fecha_format}"/>
+            <f:view>
+                <h:form>
+                    <h1><h:outputText value="Create/Edit"/></h1>
+                    <h:panelGrid columns="2">
+                        
+                        <h:outputLabel value="Persona:" for="idPersona" />
+                        <h:selectOneMenu disabled="${!medicionBean.bandera}" id="idPersona" value="#{medicionBean.idpersona}" title="IdAct" >
+                            <f:selectItems value="#{medicionBean.personas()}" var="persona" itemValue="#{persona.idPersona}" itemLabel="#{persona.nombre}" />
+                        </h:selectOneMenu>
+                        
+                        <h:outputLabel value="" for="botonSelect" />
+                        <h:commandButton disabled="${!medicionBean.bandera}" id="botonSelect" value="Seleccionar" actionListener="#{medicionBean.seleccionaPersona(e)}"/>
+                        
+                       
+                        
+                        <h:outputLabel value="Peso (Kg):" for="peso" />
+                        <h:inputText disabled="${medicionBean.bandera}" id="peso" value="#{medicionBean.medicion.peso}" title="Peso" />
+                        
+                        <h:outputLabel value="Cintura (CM):" for="cintura" />
+                        <h:inputText disabled="${medicionBean.bandera}" id="cintura" value="#{medicionBean.medicion.cintura}" title="Cintura" />
+                        
+                        <h:outputLabel value="Cadera (CM):" for="cadera" />
+                        <h:inputText disabled="${medicionBean.bandera}" id="cadera" value="#{medicionBean.medicion.cadera}" title="Cadera" />
+                        
+                        <h:outputLabel value="Actividad:" for="idAct" />
+                        <h:selectOneMenu disabled="${medicionBean.bandera}" id="idAct" value="#{medicionBean.idactividad}" title="IdAct" >
+                            <f:selectItems value="#{medicionBean.actividades()}" var="actividad" itemValue="#{actividad.idAct}" itemLabel="#{actividad.nombre}" />
+                        </h:selectOneMenu>
+                        
+                    </h:panelGrid>
+                    
+                    <h:commandButton value="Registro" action="registromediciones" actionListener="#{medicionBean.registraMedicion(e)}" />
+                    <h:commandButton value="Salir" action="menu_mediciones" actionListener="#{medicionBean.invalidateSession(e)}" />
+                </h:form>
+            </f:view>
+
+    </center>
+    </h:body>
+</html>
+
