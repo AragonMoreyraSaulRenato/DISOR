@@ -19,12 +19,12 @@ Desarrollo de Software Orientado a Reutilización
 - Unidad 4 
     - Aplicaciones Web (Java Server Pages JSP)
     - Conexión con base de datos 
-    - Uso de herramientad de NetBeans (Método de Fabricación)
+    - Uso de herramientas de NetBeans (Método de Fabricación)
 
 - Unidad 5
     - Aplicaciones Web (Java Server Faces JSF)
     - Conexión con base de datos
-    - Uso de herramientad de NetBeans (Método de Fabricación)
+    - Uso de herramientas de NetBeans (Método de Fabricación)
 
 
 **Repositorio Extra**
